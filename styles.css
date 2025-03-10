@@ -90,5 +90,44 @@
     width: 120px;
     height: 30px;
     border-radius: 5px;;
+}
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+
+    width: 100%;
+    flex: 1;
+    padding: 15px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.info-title {
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.panels {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.illustration {
+    border-color: #3882f6;
+    width: 100px;
+    height: 100px;
+    background-color:#3882f6
 }
